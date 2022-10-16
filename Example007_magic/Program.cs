@@ -12,7 +12,7 @@ Console.WriteLine("+");
 int x=(xa+xb)/2;
 int y=(ya+yb)/2;
 int count=0;
-while(count<100000)
+while(count<20000)
 {
     int n= new Random().Next(0, 3);
     if(n==0)
